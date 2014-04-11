@@ -4,7 +4,7 @@ $:.push File.expand_path('../lib', __FILE__)
 require 'mt940/version'
 
 Gem::Specification.new do |s|
-  s.name        = 'mt940'
+  s.name        = 'zilverline-mt940'
   s.version     = MT940::VERSION
   s.authors     = ['Lars Vonk', 'Michael Franken']
   s.description = %q{An extended MT940 parser with implementations for Dutch banks. Based on basic parser from http://github.com/dovadi/mt940}
@@ -23,7 +23,7 @@ Gem::Specification.new do |s|
 
   s.add_development_dependency 'rspec'
   s.add_development_dependency 'rake'
-  
+
   s.files         = `git ls-files`.split(/\n/)
   s.test_files    = `git ls-files -- {test,spec,features}/*`.split(/\n/)
   s.executables   = `git ls-files -- bin/*`.split(/\n/).map{ |f| File.basename(f) }
