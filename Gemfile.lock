@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    mt940 (1.0)
+    zilverline-mt940 (1.0)
 
 GEM
   remote: http://rubygems.org/
@@ -21,6 +21,6 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  mt940!
   rake
   rspec
+  zilverline-mt940!
